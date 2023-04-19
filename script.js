@@ -5,7 +5,7 @@ let copyBtn = document.querySelector('#copy');
 
 color1.addEventListener('input', changeBackgroundColor);
 color2.addEventListener('input', changeBackgroundColor);
-copyBtn.addEventListener('click', copyToClipboard)
+copyBtn.addEventListener('click', copyToClipboard);
 
 function changeBackgroundColor() {
 	document.body.style.background = `linear-gradient(to right, ${color1.value} , ${color2.value})`;
