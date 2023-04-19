@@ -31,3 +31,18 @@ h3 {
   border: 1px solid rgba(0,0,0,.5);
   padding: 1em;
 }
+
+.btn {
+  font: 400 1.1em 'Raleway', sans-serif;
+  color: rgba(0,0,0,.5);
+  border: 1px solid rgba(0,0,0,.5);
+  padding: 0.5em;
+  display: block;
+  margin: 0 auto;
+  background-color: transparent;
+  transition: background-color 0.3s ease 0s;
+}
+
+.btn:hover {
+  background-color: rgba(0,0,0,.1);
+}
